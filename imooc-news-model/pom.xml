@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>imooc-news</artifactId>
+        <groupId>com.shisan</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--
+    imooc-news-dev-model
+    模型工程，所有的子工程以及微服务中所涉及到的模型实体类都在此管理
+    可以包含一些 *pojo,*Bean,*Entity,vo,bo,dto等。
+-->
+    <artifactId>imooc-news-model</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.shisan</groupId>
+            <artifactId>imooc-news-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>

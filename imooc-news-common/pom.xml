@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>imooc-news</artifactId>
+        <groupId>com.shisan</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--
+    imooc-news-dev-common
+    通用工程
+    包含了一些工具类，枚举类，封装的一些公共方法以及一些第三方组件等
+    -->
+    <artifactId>imooc-news-common</artifactId>
+
+</project>
