@@ -1,5 +1,7 @@
 package com.shisan.api.controller.user;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
@@ -8,6 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @date 2023/3/7 20:40
  */
 
+@Api(value = "controller的标题", tags = {"测试是否可以正常运行的controller"})
 public interface HelloControllerApi {
 
     /**
@@ -44,6 +47,7 @@ public interface HelloControllerApi {
      * @return
      */
 
+    @ApiOperation(value = "hello 方法的接口",notes = "hello 方法的接口",httpMethod = "GET")
     @GetMapping("/hello")
     public Object hello();
 
